@@ -1,5 +1,30 @@
-# CMake
-build/
+# Emacs files
+*~
+*\#
+.tramp_history
 
-# Visual Studio Code
+# Vim cache files
+*.swp
+
+# CMake build files
+build/
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+*.a
+*.o
+cmake-build-*
+
+# Python cache
+*.pyc
+__pycache__
+*.pytest_cache
+
+
+# JetBrains project files
+.idea
+
+# Microsoft Visual Studio Code
 .vscode
