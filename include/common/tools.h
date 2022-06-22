@@ -5,7 +5,6 @@
 #include <ctime>
 #include <iostream>
 #include <vector>
-#include "common/tools.h"
 
 namespace playground
 {

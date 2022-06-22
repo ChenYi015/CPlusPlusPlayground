@@ -1,5 +1,7 @@
 enable_testing()
 
+add_subdirectory(basic)
+
 # factorial_test
 add_executable(factorial_test factorial_test.cpp)
 
