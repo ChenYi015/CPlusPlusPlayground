@@ -100,3 +100,39 @@ target_link_libraries(
 )
 
 # TODO: 0012_weak_ptr_test
+
+# 0013_sizeof_test
+add_executable(0013_sizeof_test 0013_sizeof_test.cpp)
+
+target_link_libraries(
+    0013_sizeof_test
+    stdc++
+    _gtest_main
+)
+
+# 0014_ptr_add_test
+add_executable(0014_ptr_add_test 0014_ptr_add_test.cpp)
+
+target_link_libraries(
+    0014_ptr_add_test
+    stdc++
+    _gtest_main
+)
+
+# 0015_tuple_test
+add_executable(0015_tuple_test 0015_tuple_test.cpp)
+
+target_link_libraries(
+    0015_tuple_test
+    stdc++
+    _gtest_main
+)
+
+# 0016_bitset_test
+add_executable(0016_bitset_test 0016_bitset_test.cpp)
+
+target_link_libraries(
+    0016_bitset_test
+    stdc++
+    _gtest_main
+)
