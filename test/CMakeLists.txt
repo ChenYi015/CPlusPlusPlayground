@@ -1,6 +1,9 @@
 enable_testing()
 
 add_subdirectory(basic)
+add_subdirectory(io)
+add_subdirectory(multi-threading)
+add_subdirectory(oop)
 
 # factorial_test
 add_executable(factorial_test factorial_test.cpp)

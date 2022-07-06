@@ -136,3 +136,21 @@ target_link_libraries(
     stdc++
     _gtest_main
 )
+
+# 0017_default_parameter_test
+add_executable(0017_default_parameter_test 0017_default_parameter_test.cpp)
+
+target_link_libraries(
+    0017_default_parameter_test
+    stdc++
+    _gtest_main
+)
+
+# 0018_type_conversion_test
+add_executable(0018_type_conversion_test 0018_type_conversion_test.cpp)
+
+target_link_libraries(
+    0018_type_conversion_test
+    stdc++
+    _gtest_main
+)
